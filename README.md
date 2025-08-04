@@ -2,23 +2,24 @@ This project analyzes global online activity patterns by examining timestamped s
 
 The dataset includes anonymized user IDs, occupations, timestamps, and locations. Initial data preprocessing involved removing missing values, duplicates, special characters, and filtering for relevant cities and countries to ensure high-quality analysis.
 
-#Libraries:
+#Libraries used:
 Pandas for data manipulation and cleaning
 NumPy for numerical operations
 Matplotlib, Plotly and Seaborn for data visualization Plotly 
 
+#Dataset:
+[Download Data from Google Drive](https://drive.google.com/file/d/1ren8zGyP6-So3741la3sCaAXgITdLGV1/view)
+
+#This Repository contains:
+`Project_Circadian_Rhythms.ipynb`: Python file for Data Cleaning, Visualization and Analysis.
+
 #Key insights and tasks completed:
 
-Occupation vs. Activity: Identified which roles are most represented in the dataset. Founders and directors emerged as the most active groups.
-
-Location Analysis: London was identified as the most frequent location, with high activity observed across multiple global cities.
-
-Hourly Activity Trends: Analyzed distribution of posts by hour, revealing peak engagement between 9 AM and 8 PM across most locations.
-
-Monthly Activity: Focused on data from 2020, showing increased activity between March and June.
-
-User Engagement Classification: Labeled users as “Frequent” or “Infrequent” based on their post count threshold, helping distinguish between occasional and high-volume users.
-
-Visualizations such as bar plots, word clouds, treemaps, and pie charts were used to illustrate trends in occupation, location, and time-based behavior.
+-Occupation vs. Activity: Identified which roles are most represented in the dataset. Founders and directors emerged as the most active groups.
+-Location Analysis: London was identified as the most frequent location, with high activity observed across multiple global cities.
+-Hourly Activity Trends: Analyzed distribution of posts by hour, revealing peak engagement between 9 AM and 8 PM across most locations.
+-Monthly Activity: Focused on data from 2020, showing increased activity between March and June.
+-User Engagement Classification: Labeled users as “Frequent” or “Infrequent” based on their post count threshold, helping distinguish between occasional and high-volume users.
+-Visualizations such as bar plots, word clouds, treemaps, and pie charts were used to illustrate trends in occupation, location, and time-based behavior.
 
 This analysis can support research in behavioral science, digital marketing, and time-based engagement strategies by helping to understand when and where users are most active online.
